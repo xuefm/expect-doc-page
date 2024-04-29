@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>nginx配置详情 | vuepress-theme-vdoing</title>
+    <meta name="generator" content="VuePress 1.9.9">
+    <link rel="icon" href="/img/favicon.ico">
+    <script src="https://cdn.wwads.cn/js/makemoney.js" type="text/javascript"></script>
+    <meta name="description" content="一个基于VuePress的 知识管理&amp;博客 主题">
+    <meta name="keywords" content="vuepress,theme,blog,vdoing">
+    <meta name="theme-color" content="#11a8cd">
+    <meta name="wwads-cn-verify" content="6c4b761a28b734fe93831e3fb400ce87">
+    
+    <link rel="preload" href="/assets/css/0.styles.9bcbf02c.css" as="style"><link rel="preload" href="/assets/js/app.5cb31735.js" as="script"><link rel="preload" href="/assets/js/2.ae98dc89.js" as="script"><link rel="preload" href="/assets/js/52.223a2ea0.js" as="script"><link rel="prefetch" href="/assets/js/10.f0e3d2a5.js"><link rel="prefetch" href="/assets/js/11.029f9119.js"><link rel="prefetch" href="/assets/js/12.4afdb86d.js"><link rel="prefetch" href="/assets/js/13.b606c2ba.js"><link rel="prefetch" href="/assets/js/14.63d9b236.js"><link rel="prefetch" href="/assets/js/15.7332449f.js"><link rel="prefetch" href="/assets/js/16.2b8c633b.js"><link rel="prefetch" href="/assets/js/17.f691e205.js"><link rel="prefetch" href="/assets/js/18.c91a52d6.js"><link rel="prefetch" href="/assets/js/19.925ae641.js"><link rel="prefetch" href="/assets/js/20.2f6972b7.js"><link rel="prefetch" href="/assets/js/21.ab341f3b.js"><link rel="prefetch" href="/assets/js/22.7d5fa67a.js"><link rel="prefetch" href="/assets/js/23.31642206.js"><link rel="prefetch" href="/assets/js/24.d3b19ca4.js"><link rel="prefetch" href="/assets/js/25.b043fa78.js"><link rel="prefetch" href="/assets/js/26.ba0799ed.js"><link rel="prefetch" href="/assets/js/27.4ad0c4d6.js"><link rel="prefetch" href="/assets/js/28.b12df333.js"><link rel="prefetch" href="/assets/js/29.da1aca4a.js"><link rel="prefetch" href="/assets/js/3.41eb3994.js"><link rel="prefetch" href="/assets/js/30.709dedf3.js"><link rel="prefetch" href="/assets/js/31.a29464c9.js"><link rel="prefetch" href="/assets/js/32.71c529f9.js"><link rel="prefetch" href="/assets/js/33.1b7da9ef.js"><link rel="prefetch" href="/assets/js/34.ee1bf70f.js"><link rel="prefetch" href="/assets/js/35.680e3e65.js"><link rel="prefetch" href="/assets/js/36.bbfb8561.js"><link rel="prefetch" href="/assets/js/37.02579bee.js"><link rel="prefetch" href="/assets/js/38.769fb0b2.js"><link rel="prefetch" href="/assets/js/39.92615943.js"><link rel="prefetch" href="/assets/js/4.6569a06f.js"><link rel="prefetch" href="/assets/js/40.a46ac353.js"><link rel="prefetch" href="/assets/js/41.4a6ea06d.js"><link rel="prefetch" href="/assets/js/42.21e9ab78.js"><link rel="prefetch" href="/assets/js/43.aa535b0d.js"><link rel="prefetch" href="/assets/js/44.18c5bc36.js"><link rel="prefetch" href="/assets/js/45.eed82311.js"><link rel="prefetch" href="/assets/js/46.de57c76d.js"><link rel="prefetch" href="/assets/js/47.0111b538.js"><link rel="prefetch" href="/assets/js/48.23870f32.js"><link rel="prefetch" href="/assets/js/49.8400854c.js"><link rel="prefetch" href="/assets/js/5.ea724ea3.js"><link rel="prefetch" href="/assets/js/50.ef8ab5ef.js"><link rel="prefetch" href="/assets/js/51.6f076e0c.js"><link rel="prefetch" href="/assets/js/53.cb1a78d4.js"><link rel="prefetch" href="/assets/js/54.ac21981f.js"><link rel="prefetch" href="/assets/js/55.f18d2109.js"><link rel="prefetch" href="/assets/js/56.fb165f45.js"><link rel="prefetch" href="/assets/js/57.0ad266fb.js"><link rel="prefetch" href="/assets/js/58.131a6095.js"><link rel="prefetch" href="/assets/js/59.e50886c9.js"><link rel="prefetch" href="/assets/js/6.dc329c5d.js"><link rel="prefetch" href="/assets/js/60.07899411.js"><link rel="prefetch" href="/assets/js/61.5c6336f1.js"><link rel="prefetch" href="/assets/js/62.6337d851.js"><link rel="prefetch" href="/assets/js/7.f2f28c41.js"><link rel="prefetch" href="/assets/js/8.739d3396.js"><link rel="prefetch" href="/assets/js/9.00571993.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.9bcbf02c.css">
+  </head>
+  <body class="theme-mode-light">
+    <div id="app" data-server-rendered="true"><div class="theme-container sidebar-open"><header class="navbar blur"><div title="目录" class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="/img/logo.png" alt="vuepress-theme-vdoing" class="logo"> <span class="site-name can-hide">vuepress-theme-vdoing</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">首页</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="服务器相关" class="dropdown-title"><a href="/pages/949754/" class="link-title">服务器相关</a> <span class="title" style="display:none;">服务器相关</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/pages/949754/" class="nav-link">Linux</a></li><li class="dropdown-item"><!----> <a href="/pages/e29cdb/" class="nav-link">docker</a></li><li class="dropdown-item"><!----> <a href="/pages/ce5255/" class="nav-link">nginx</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="数据存储" class="dropdown-title"><a href="/pages/638375/" class="link-title">数据存储</a> <span class="title" style="display:none;">数据存储</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/pages/638375/" class="nav-link">mysql</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="开发工具相关" class="dropdown-title"><a href="/pages/b740a1/" class="link-title">开发工具相关</a> <span class="title" style="display:none;">开发工具相关</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/pages/b740a1/" class="nav-link">git</a></li><li class="dropdown-item"><!----> <a href="/pages/e6306e/" class="nav-link">idea</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="java" class="dropdown-title"><a href="/pages/ef0371/" class="link-title">java</a> <span class="title" style="display:none;">java</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/pages/ef0371/" class="nav-link">lombok</a></li><li class="dropdown-item"><!----> <a href="/pages/b3cd0d/" class="nav-link">mapstruct</a></li><li class="dropdown-item"><!----> <a href="/pages/be7ac1/" class="nav-link">okhttp3</a></li></ul></div></div><div class="nav-item"><a href="/pages/3eb2d0/" class="nav-link">spring</a></div><div class="nav-item"><a href="/pages/1b12ed/" class="nav-link">赞助</a></div> <a href="https://github.com/xugaoyi/vuepress-theme-vdoing" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav></div></header> <div class="sidebar-mask"></div> <div class="sidebar-hover-trigger"></div> <aside class="sidebar" style="display:none;"><!----> <nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">首页</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="服务器相关" class="dropdown-title"><a href="/pages/949754/" class="link-title">服务器相关</a> <span class="title" style="display:none;">服务器相关</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/pages/949754/" class="nav-link">Linux</a></li><li class="dropdown-item"><!----> <a href="/pages/e29cdb/" class="nav-link">docker</a></li><li class="dropdown-item"><!----> <a href="/pages/ce5255/" class="nav-link">nginx</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="数据存储" class="dropdown-title"><a href="/pages/638375/" class="link-title">数据存储</a> <span class="title" style="display:none;">数据存储</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/pages/638375/" class="nav-link">mysql</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="开发工具相关" class="dropdown-title"><a href="/pages/b740a1/" class="link-title">开发工具相关</a> <span class="title" style="display:none;">开发工具相关</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/pages/b740a1/" class="nav-link">git</a></li><li class="dropdown-item"><!----> <a href="/pages/e6306e/" class="nav-link">idea</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="java" class="dropdown-title"><a href="/pages/ef0371/" class="link-title">java</a> <span class="title" style="display:none;">java</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/pages/ef0371/" class="nav-link">lombok</a></li><li class="dropdown-item"><!----> <a href="/pages/b3cd0d/" class="nav-link">mapstruct</a></li><li class="dropdown-item"><!----> <a href="/pages/be7ac1/" class="nav-link">okhttp3</a></li></ul></div></div><div class="nav-item"><a href="/pages/3eb2d0/" class="nav-link">spring</a></div><div class="nav-item"><a href="/pages/1b12ed/" class="nav-link">赞助</a></div> <a href="https://github.com/xugaoyi/vuepress-theme-vdoing" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>nginx</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/pages/ce5255/" class="sidebar-link">nginx安装</a></li><li><a href="/pages/61f88f/" aria-current="page" class="active sidebar-link">nginx配置详情</a></li><li><a href="/pages/ad2c6a/" class="sidebar-link">nginx配置清单</a></li><li><a href="/pages/5de167/" class="sidebar-link">反向代理配置</a></li><li><a href="/pages/3a71f1/" class="sidebar-link">root和alias的区别</a></li><li><a href="/pages/788324/" class="sidebar-link">nginx拿到真实域名和ip</a></li><li><a href="/pages/04cd7d/" class="sidebar-link">nginx请求超时问题</a></li></ul></section></li></ul> </aside> <div><main class="page"><div class="theme-vdoing-wrapper "><div class="articleInfo-wrap" data-v-06225672><div class="articleInfo" data-v-06225672><ul class="breadcrumbs" data-v-06225672><li data-v-06225672><a href="/" title="首页" class="iconfont icon-home router-link-active" data-v-06225672></a></li> <li data-v-06225672><span data-v-06225672>nginx</span></li><li data-v-06225672><span data-v-06225672>nginx</span></li></ul> <div class="info" data-v-06225672><div title="作者" class="author iconfont icon-touxiang" data-v-06225672><a href="https://github.com/xuefm" target="_blank" title="作者" class="beLink" data-v-06225672>xuefm</a></div> <div title="创建时间" class="date iconfont icon-riqi" data-v-06225672><a href="javascript:;" data-v-06225672>2024-04-28</a></div> <!----></div></div></div> <!----> <div class="content-wrapper"><!----> <h1><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAABGpJREFUSA3tVVtoXFUU3fvOI53UlmCaKIFmwEhsE7QK0ipFEdHEKpXaZGrp15SINsXUWvBDpBgQRKi0+KKoFeJHfZA+ED9KKoIU2gYD9UejTW4rVIzm0VSTziPzuNu1z507dibTTjL4U/DAzLn3nL3X2o91ziX6f9wMFdh6Jvbm9nNSV0msViVO6tN1Rm7NMu2OpeJ9lWBUTDxrJbYTS0hInuwciu9eLHlFxCLCZEk3MegsJmZ5K/JD6t7FkFdEvGUo1g7qJoG3MHImqRIn8/nzY1K9UPKKiJmtnUqHVE3Gbuay6vJE/N2FEmuxFjW2nUuE0yQXRRxLiTUAzs36zhZvOXJPdX850EVnnLZkB8prodQoM5JGj7Xk2mvC7JB8tG04Ef5PiXtG0UtxupRQSfTnBoCy554x18yJHI6I+G5Eru4LHmPJZEQsrvPUbMiA8G/WgMK7w7I+ez7++o2ANfbrjvaOl1tFMs+htG3IrZH9/hDX1Pr8Tc0UvH8tcX29KzAgIGcEkINyW5BF9x891hw6VYqgJHEk0huccS7vh3C6gTiODL+26huuBtbct8eZnqLML8PkxGYpuPZBqtqwkSjgc4mB5gbgig5i+y0UDK35LMxXisn9xQtK+nd26gTIHsHe/oblK/b29fUmN/8Y+9jAQrnBp56m1LcDlDp9irKTExSKduXJVWSqdBMA08pEJnEIOB3FPPMybu/oeV8zFeYN3xx576Q6RH+VmplE4ncQV5v+5rzSoyOU7PuEAg8g803PwBJ0CExno/jcMbN8tONYeOmHiuUNryvm3fRUy4tMPVLdAGkUhNWuggGrJcXPv+ouCjz0MKUHz1J2/E8IC9nqTabcxgaBYM0hPhD5Y65FsbxRQKxCQrDjDctW7PUM3HuZunFyifSAqEfuzCp48Il24luWUWZoyJCaPR82jE0+kFA643wRFVni4RYSq3ohJO2pZ7B5dO4xkDWbEpossJPLSrPjYID8rS2UHTlvyNxqIGsg674XJJ7vnh5L7PNwC4hh2sjCI96mzszOTpxLF0T7l88Yz7lAuK6OnL8gXLOnTvpzSb22YG8W7us3jSebFHeeqnXRG1vt+MoUM84LQIBmMsCTAcOauTh0T0l0neQK7m2bLMt2mGxU3HYssS0J2cdv5wljlPsrIuZLAG/2DOZIXgCYT8uMGZN+e2kSirfxZOPCsC0f24nTZzspnVn9VePS1Z5vubmAGGXG8ZFno9Hel0yfA5ZPhF7Dh972BQJ2qCpgH67lmWtBYbvk6sz02wjky2vXyz0XErP/kFB619js1BtwfOV4OPRqOQBjy3Qbk18vigUPPSD5ceHnwck7W9bhAqZdd7SuG7w4/P2F/GaJh8c7e9qgow+Q7cGBo+98WsLkuktFqiZabtXuQTu/Y5ETbR0v7tNSFnvrmu6pjdoan2KjMu8q/Hmj1EfCO2ZGfEIbIXKUlw8qaX9/b2oeSJmFksSeT/Fn0V3nSypChh4Gjh74ybO9aeZ/AN2dwciu2/MhAAAAAElFTkSuQmCC">nginx配置详情<!----></h1>  <div class="theme-vdoing-content content__default"><div class="language-nginx extra-class"><pre class="language-nginx"><code><span class="token comment">#运行用户</span>
+<span class="token directive"><span class="token keyword">user</span> nobody</span><span class="token punctuation">;</span>
+<span class="token comment">#启动进程,通常设置成和cpu的数量相等</span>
+<span class="token directive"><span class="token keyword">worker_processes</span>  <span class="token number">1</span></span><span class="token punctuation">;</span>
+
+<span class="token comment">#全局错误日志及PID文件</span>
+<span class="token comment">#error_log  logs/error.log;</span>
+<span class="token comment">#error_log  logs/error.log  notice;</span>
+<span class="token comment">#error_log  logs/error.log  info;</span>
+
+<span class="token comment">#pid        logs/nginx.pid;</span>
+
+<span class="token comment">#工作模式及连接数上限</span>
+<span class="token directive"><span class="token keyword">events</span></span> <span class="token punctuation">{</span>
+    <span class="token comment">#epoll是多路复用IO(I/O Multiplexing)中的一种方式,</span>
+    <span class="token comment">#仅用于linux2.6以上内核,可以大大提高nginx的性能</span>
+    <span class="token directive"><span class="token keyword">use</span>   epoll</span><span class="token punctuation">;</span> 
+
+    <span class="token comment">#单个后台worker process进程的最大并发链接数    </span>
+    <span class="token directive"><span class="token keyword">worker_connections</span>  <span class="token number">1024</span></span><span class="token punctuation">;</span>
+
+    <span class="token comment"># 并发总数是 worker_processes 和 worker_connections 的乘积</span>
+    <span class="token comment"># 即 max_clients = worker_processes * worker_connections</span>
+    <span class="token comment"># 在设置了反向代理的情况下，max_clients = worker_processes * worker_connections / 4  为什么</span>
+    <span class="token comment"># 为什么上面反向代理要除以4，应该说是一个经验值</span>
+    <span class="token comment"># 根据以上条件，正常情况下的Nginx Server可以应付的最大连接数为：4 * 8000 = 32000</span>
+    <span class="token comment"># worker_connections 值的设置跟物理内存大小有关</span>
+    <span class="token comment"># 因为并发受IO约束，max_clients的值须小于系统可以打开的最大文件数</span>
+    <span class="token comment"># 而系统可以打开的最大文件数和内存大小成正比，一般1GB内存的机器上可以打开的文件数大约是10万左右</span>
+    <span class="token comment"># 我们来看看360M内存的VPS可以打开的文件句柄数是多少：</span>
+    <span class="token comment"># $ cat /proc/sys/fs/file-max</span>
+    <span class="token comment"># 输出 34336</span>
+    <span class="token comment"># 32000 &lt; 34336，即并发连接总数小于系统可以打开的文件句柄总数，这样就在操作系统可以承受的范围之内</span>
+    <span class="token comment"># 所以，worker_connections 的值需根据 worker_processes 进程数目和系统可以打开的最大文件总数进行适当地进行设置</span>
+    <span class="token comment"># 使得并发总数小于操作系统可以打开的最大文件数目</span>
+    <span class="token comment"># 其实质也就是根据主机的物理CPU和内存进行配置</span>
+    <span class="token comment"># 当然，理论上的并发总数可能会和实际有所偏差，因为主机还有其他的工作进程需要消耗系统资源。</span>
+    <span class="token comment"># ulimit -SHn 65535</span>
+
+<span class="token punctuation">}</span>
+
+
+<span class="token directive"><span class="token keyword">http</span></span> <span class="token punctuation">{</span>
+    <span class="token comment">#设定mime类型,类型由mime.type文件定义</span>
+    <span class="token directive"><span class="token keyword">include</span>    mime.types</span><span class="token punctuation">;</span>
+    <span class="token directive"><span class="token keyword">default_type</span>  application/octet-stream</span><span class="token punctuation">;</span>
+    <span class="token comment">#设定日志格式</span>
+    <span class="token directive"><span class="token keyword">log_format</span>  main  <span class="token string">'<span class="token variable">$remote_addr</span> - <span class="token variable">$remote_user</span> [<span class="token variable">$time_local]</span> &quot;<span class="token variable">$request</span>&quot; '</span>
+                      <span class="token string">'<span class="token variable">$status</span> <span class="token variable">$body_bytes_sent</span> &quot;<span class="token variable">$http_referer</span>&quot; '</span>
+                      <span class="token string">'&quot;<span class="token variable">$http_user_agent</span>&quot; &quot;<span class="token variable">$http_x_forwarded_for</span>&quot;'</span></span><span class="token punctuation">;</span>
+
+    <span class="token directive"><span class="token keyword">access_log</span>  logs/access.log  main</span><span class="token punctuation">;</span>
+
+    <span class="token comment">#sendfile 指令指定 nginx 是否调用 sendfile 函数（zero copy 方式）来输出文件，</span>
+    <span class="token comment">#对于普通应用，必须设为 on,</span>
+    <span class="token comment">#如果用来进行下载等应用磁盘IO重负载应用，可设置为 off，</span>
+    <span class="token comment">#以平衡磁盘与网络I/O处理速度，降低系统的uptime.</span>
+    <span class="token directive"><span class="token keyword">sendfile</span>     <span class="token boolean">on</span></span><span class="token punctuation">;</span>
+    <span class="token comment">#tcp_nopush     on;</span>
+
+    <span class="token comment">#连接超时时间</span>
+    <span class="token comment">#keepalive_timeout  0;</span>
+    <span class="token directive"><span class="token keyword">keepalive_timeout</span>  <span class="token number">65</span></span><span class="token punctuation">;</span>
+    <span class="token directive"><span class="token keyword">tcp_nodelay</span>     <span class="token boolean">on</span></span><span class="token punctuation">;</span>
+
+    <span class="token comment">#开启gzip压缩</span>
+    <span class="token directive"><span class="token keyword">gzip</span>  <span class="token boolean">on</span></span><span class="token punctuation">;</span>
+    <span class="token directive"><span class="token keyword">gzip_disable</span> <span class="token string">&quot;MSIE [1-6].&quot;</span></span><span class="token punctuation">;</span>
+
+    <span class="token comment">#设定请求缓冲</span>
+    <span class="token directive"><span class="token keyword">client_header_buffer_size</span>    <span class="token number">128k</span></span><span class="token punctuation">;</span>
+    <span class="token directive"><span class="token keyword">large_client_header_buffers</span>  <span class="token number">4</span> <span class="token number">128k</span></span><span class="token punctuation">;</span>
+
+
+    <span class="token comment">#设定虚拟主机配置</span>
+    <span class="token directive"><span class="token keyword">server</span></span> <span class="token punctuation">{</span>
+        <span class="token comment">#侦听80端口</span>
+        <span class="token directive"><span class="token keyword">listen</span>    <span class="token number">80</span></span><span class="token punctuation">;</span>
+        <span class="token comment">#定义使用 www.nginx.cn访问</span>
+        <span class="token directive"><span class="token keyword">server_name</span>  www.nginx.cn</span><span class="token punctuation">;</span>
+
+        <span class="token comment">#定义服务器的默认网站根目录位置</span>
+        <span class="token directive"><span class="token keyword">root</span> html</span><span class="token punctuation">;</span>
+
+        <span class="token comment">#设定本虚拟主机的访问日志</span>
+        <span class="token directive"><span class="token keyword">access_log</span>  logs/nginx.access.log  main</span><span class="token punctuation">;</span>
+
+        <span class="token comment">#默认请求</span>
+        <span class="token directive"><span class="token keyword">location</span> /</span> <span class="token punctuation">{</span>
+            
+            <span class="token comment">#定义首页索引文件的名称</span>
+            <span class="token directive"><span class="token keyword">index</span> index.php index.html index.htm</span><span class="token punctuation">;</span>   
+
+        <span class="token punctuation">}</span>
+
+        <span class="token comment"># 定义错误提示页面</span>
+        <span class="token directive"><span class="token keyword">error_page</span>   <span class="token number">500</span> <span class="token number">502</span> <span class="token number">503</span> <span class="token number">504</span> /50x.html</span><span class="token punctuation">;</span>
+        <span class="token directive"><span class="token keyword">location</span> = /50x.html</span> <span class="token punctuation">{</span>
+        <span class="token punctuation">}</span>
+
+        <span class="token comment">#静态文件，nginx自己处理</span>
+        <span class="token directive"><span class="token keyword">location</span> ~ ^/(images|javascript|js|css|flash|media|static)/</span> <span class="token punctuation">{</span>
+            
+            <span class="token comment">#过期30天，静态文件不怎么更新，过期可以设大一点，</span>
+            <span class="token comment">#如果频繁更新，则可以设置得小一点。</span>
+            <span class="token directive"><span class="token keyword">expires</span> <span class="token number">30d</span></span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+
+        <span class="token comment">#PHP 脚本请求全部转发到 FastCGI处理. 使用FastCGI默认配置.</span>
+        <span class="token directive"><span class="token keyword">location</span> ~ .php$</span> <span class="token punctuation">{</span>
+            <span class="token directive"><span class="token keyword">fastcgi_pass</span> 127.0.0.1:9000</span><span class="token punctuation">;</span>
+            <span class="token directive"><span class="token keyword">fastcgi_index</span> index.php</span><span class="token punctuation">;</span>
+            <span class="token directive"><span class="token keyword">fastcgi_param</span>  SCRIPT_FILENAME  <span class="token variable">$document_root</span><span class="token variable">$fastcgi_script_name</span></span><span class="token punctuation">;</span>
+            <span class="token directive"><span class="token keyword">include</span> fastcgi_params</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+
+        <span class="token comment">#禁止访问 .htxxx 文件</span>
+            <span class="token directive"><span class="token keyword">location</span> ~ /.ht</span> <span class="token punctuation">{</span>
+            <span class="token directive"><span class="token keyword">deny</span> all</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div></div></div>  <div class="page-edit"><!----> <!----> <!----></div> <div class="page-nav-wapper"><div class="page-nav-centre-wrap"><a href="/pages/ce5255/" class="page-nav-centre page-nav-centre-prev"><div class="tooltip">nginx安装</div></a> <a href="/pages/ad2c6a/" class="page-nav-centre page-nav-centre-next"><div class="tooltip">nginx配置清单</div></a></div> <div class="page-nav"><p class="inner"><span class="prev">
+        ←
+        <a href="/pages/ce5255/" class="prev">nginx安装</a></span> <span class="next"><a href="/pages/ad2c6a/">nginx配置清单</a>→
+      </span></p></div></div></div> <!----></main></div> <div class="footer"><div class="icons"><a href="mailto:894072666@qq.com" title="发邮件" target="_blank" class="iconfont icon-youjian"></a><a href="https://github.com/xuefm" title="GitHub" target="_blank" class="iconfont icon-github"></a><a href="https://music.163.com/#/playlist?id=755597173" title="听音乐" target="_blank" class="iconfont icon-erji"></a></div> 
+  Theme by
+  <a href="https://github.com/xugaoyi/vuepress-theme-vdoing" target="_blank" title="本站主题">Vdoing</a> 
+    | Copyright © 2019-2024
+    <span>Evan Xu | MIT License</span></div> <div class="buttons"><div title="返回顶部" class="button blur go-to-top iconfont icon-fanhuidingbu" style="display:none;"></div> <div title="去评论" class="button blur go-to-comment iconfont icon-pinglun" style="display:none;"></div> <div title="主题模式" class="button blur theme-mode-but iconfont icon-zhuti"><ul class="select-box" style="display:none;"><li class="iconfont icon-zidong">
+          跟随系统
+        </li><li class="iconfont icon-rijianmoshi">
+          浅色模式
+        </li><li class="iconfont icon-yejianmoshi">
+          深色模式
+        </li><li class="iconfont icon-yuedu">
+          阅读模式
+        </li></ul></div></div> <!----> <!----> <!----></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.5cb31735.js" defer></script><script src="/assets/js/2.ae98dc89.js" defer></script><script src="/assets/js/52.223a2ea0.js" defer></script>
+  </body>
+</html>
